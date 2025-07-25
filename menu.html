@@ -26,8 +26,7 @@
 
                     <!-- logo -->
                     <a href="index.html" class="logo">
-                        <img src="images/rincon1.png" alt="El Rinconcito Logo">
-                    </a>
+                        <img src="images/rincon5.png" alt="El Rinconcito Logo">                    </a>
             </div>
 
             <ul class="main_nav" id="myTopnav">
@@ -44,16 +43,23 @@
 
             <!-- header -->
             <div id="header">
-                <img src="images/rincon1.png" alt="El Rinconcito de Guadalupe Logo">
-                <h1>MENU</h1>
-                <h2>Authentic Flavors on Wheels</h2>
-                <img src="images/call.png" alt="call us now">
-                <a href="callto:PHONEHERE">123-456-7890</a>
+                <img src="images/rincon1.png" alt="El Rinconcito de Guadalupe Logo" id="rinconlogo">
+                    <div id="header-text">
+                        <h1>MENU</h1>
+                        <h2>Authentic Flavors on Wheels</h2>
+                    </div>
+
+                    <div id="ordercall">
+                        <img src="images/call.png" alt="call us now" id="callus">
+                        <a href="callto:PHONEHERE">123-456-7890</a>
+                    </div>
             </div>
 
             <!-- main header -->
-            <img src="images/tacotomato.png" alt="taco and tomato" id="tacotomato">
-            <img src="images/platos.png" alt="main dishes label" id="platos">
+            <div id="mainheader">
+                <img src="images/tacotomato.png" alt="taco and tomato" id="tacotomato">
+                <img src="images/platos.png" alt="main dishes label" id="platos">
+            </div>
 
             <!-- main menu -->
             <dl id="maindishes">
@@ -84,33 +90,39 @@
                     <dd>Melted cheese in flour tortillas with any choice of protein- chicken, asada, or al pastor. Served with red or green sauce</dd>
             </dl>
 
-            <!-- snacks header -->
-            <img src="images/antojitos.png" alt="snacks label">
+            <!-- snacks  -->
+            <div id="antojitosarea">
+                <div id="antojitos">
+                    <img src="images/antojitos.png" alt="snacks label" id="snacklabel">
+                    <dl id="antojitosmenu">
+                    <dt class="menu-item">
+                        <span class="item-name">Elote En Vaso</span>
+                        <span class="price">$5</span>
+                    </dt>
+                        <dd>Corn in a cup with mayo, cheese, chili, and lime</dd>
+
+                    <dt class="menu-item">
+                        <span class="item-name">Sabritas</span>
+                        <span class="price">$1</span>
+                    </dt>
+                        <dd>Choice of Lays, Doritos, Cheetos, or Fritos small chips bag</dd> 
+                    </dl>
+
+                </div>
+            
             <img src="images/truckart.png" alt="food truck 
-            character">
+            character" id="antojitosimg">
+            </div>
+            
 
-            <!-- snacks menu -->
-            <dl id="antojitos">
-                <dt class="menu-item">
-                    <span class="item-name">Elote En Vaso</span>
-                    <span class="price">$5</span>
-                </dt>
-                    <dd>Corn in a cup with mayo, cheese, chili, and lime</dd>
 
-                <dt class="menu-item">
-                    <span class="item-name">Sabritas</span>
-                    <span class="price">$1</span>
-                </dt>
-                    <dd>Choice of Lays, Doritos, Cheetos, or Fritos small chips bag</dd> 
-            </dl>
+            
 
 
             <!-- drinks header -->
-            <img src="images/bebidas.png" alt="drinks label">
-            <img src="images/drinkart.png" alt="drink art">
-
-            <!-- drinks menu -->
-            <dl id="bebidas">
+             <div id="bebidas">
+                <img src="images/bebidas.png" alt="drinks label" id="drinkslabel">
+                <dl id="bebidasmenu">
                 <dt class="menu-item">
                     <span class="item-name">Soda Can</span>
                     <span class="price">$2</span>
@@ -135,6 +147,11 @@
                 </dt>
                     <dd></dd> 
             </dl>
+             </div>
+            
+            <img src="images/drinkart.png" alt="drink art" id="drinkart">
+
+            
 
 
             <!-- sparkles -->
@@ -167,9 +184,11 @@
     </main>
  
     <footer>
-       <p>©El Rinconcito de Guadalupe</p>
-       <p>2025</p>
-       <a href="callto:PHONEHERE">123-456-7890</a>
+    <p>©El Rinconcito de Guadalupe</p>
+    <div class="footer-right">
+        <p>2025</p>
+        <a href="tel:1234567890">123-456-7890</a>
+    </div>
     </footer>
        
 </body>
