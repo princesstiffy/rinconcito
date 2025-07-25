@@ -137,6 +137,27 @@
             z-index: 5;
         }
 
+        /* animations */
+        @keyframes popIn {
+            0% {
+                transform: scale(0.6);
+                opacity: 0;
+            }
+            80% {
+                transform: scale(1.05);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .pop-animate {
+            animation: popIn 0.6s ease-out forwards;
+        }
+ 
+
+
 /* INDEX */
         #homegrid {
             display: grid;
@@ -240,6 +261,8 @@
                 width: 100px;
                 rotate: 90deg;
             }
+
+
 
 
         .circle-divider {
