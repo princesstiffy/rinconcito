@@ -22,3 +22,22 @@ barba.init({
   ]
 });
 
+// hamburger menu toggle
+function toggleNav() {
+  const nav = document.getElementById("myTopnav");
+  nav.classList.contains("responsive")
+    ? nav.classList.remove("responsive")
+    : nav.classList.add("responsive");
+}
+
+
+
+// hamburger anims
+
+function toggleNav() {
+  const nav = document.getElementById("myTopnav");
+  const icon = document.querySelector(".icon i");
+
+  nav.classList.toggle("responsive");
+  icon.classList.toggle("active"); 
+}
