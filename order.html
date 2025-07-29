@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body data-barba="wrapper">
     <header>
 
         <nav class="nav-wrapper">
@@ -39,8 +39,8 @@
 
     </header> 
     
-    <main>
-    <div id="ordergrid">
+    <main data-barba="container" data-barba-namespace="order">
+    <div id="ordergrid" class="fade-in">
 
         <!-- stamps -->
         <div id="order1" class="stamp">
@@ -53,22 +53,22 @@
             <img src="images/yellow.png" alt="yellow sparkle">
         </div>
 
-        <img src="images/forkstamp.png" alt="fork stamp" class="stamp" id="orderfork">
-        <img src="images/nachostamp.png" alt="nachos stamp" class="stamp" id="ordernacho">
+        <img src="images/forkstamp.png" alt="fork stamp" class="stamp floaty" id="orderfork">
+        <img src="images/nachostamp.png" alt="nachos stamp" class="stamp floaty" id="ordernacho">
 
 
 
         <img src="images/tacoart.png" alt="taco art" id="tacoart" class="pop-animate">
 
         <!-- text -->
-        <div id="ordertext">
+        <div id="ordertext" class="fade-in">
         <h1>ORDER NOW</h1>
         <h2>Haines City&nbsp;&nbsp;Davenport&nbsp;&nbsp;Lake Hamilton<br>Lake Wales&nbsp;&nbsp;Winter Haven&nbsp;&nbsp;Dundee</h2>
         <p><b>Our Hours</b><br>Mon-Fri - 7AM to 2PM<br>Sat-Sun - CLOSED</p>
         </div>
 
         <!-- socials -->
-        <div id="ordersocials" class="pop-seq">
+        <div id="ordersocials" class="pop-animate">
         <img src="images/phone.png" alt="phone" class="pop-animate-delay delay1">
             <a href="callto:NUMBER">+1 (904) 469-6296</a>
         
@@ -86,6 +86,10 @@
        <p>2025</p>
        <a href="tel:9044696296">+1 (904) 469-6296</a>
     </footer>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>

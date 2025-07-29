@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body data-barba="wrapper">
     <header>
 
         <nav class="nav-wrapper">
@@ -38,14 +38,14 @@
         </nav>
 
     </header>   
-    <main>
+    <main data-barba="container" data-barba-namespace="home">
 
         <div id="homegrid">
 
             <div id="landing">
 
-                <h1>EL RINCONCITO DE GUADALUPE</h1>
-                <img src="images/authentic.png" alt="authentic flavors on wheels" id="authentic">
+                <h1 class="fade-in">EL RINCONCITO DE GUADALUPE</h1>
+                <img src="images/authentic.png" alt="authentic flavors on wheels" id="authentic" class="fade-in">
 
                 <div id="sandwichstamp" class="stamp pop-animate">
                     <img src="images/sandwichstamp.png" alt="sandwich stamp">
@@ -87,8 +87,8 @@
             <div id="about">
 
                 <div id="abouttext">
-                <h1>FOOD FROM OUR HOME TO YOURS</h1>
-                <p>El Rinconcito de Guadalupe is a family run business in Central Florida. Working directly from home with local ingredients, we bring authentic Mexican cooking to you! We have been doing food deliveries for years and recently added our own food truck to our lineup! Check our social media pages for truck updates and locations. </p>
+                <h1 class="autoShow">FOOD FROM OUR HOME TO YOURS</h1>
+                <p class="autoShow">El Rinconcito de Guadalupe is a family run business in Central Florida. Working directly from home with local ingredients, we bring authentic Mexican cooking to you! We have been doing food deliveries for years and recently added our own food truck to our lineup! Check our social media pages for truck updates and locations. </p>
                 </div>
 
                 <img src="images/rinconstamp.png" alt="placeholder" id="aboutimg">
@@ -104,14 +104,14 @@
             <div id="favorites">
 
                 <div id="favorites-header">
-                    <h1>PLATOS FAVORITOS</h1>
+                    <h1 class="autoShow">PLATOS FAVORITOS</h1>
                     <img src="images/favorites.png" alt="our favorites" id="favoritos">
                 </div>
                 
                 <div id="favorites-cards">
-                    <img src="images/rinconstamp.png" alt="placeholder" id="fav1">
-                    <img src="images/rinconstamp.png" alt="placeholder" id="fav2">
-                    <img src="images/rinconstamp.png" alt="placeholder" id="fav3">
+                    <img src="images/rinconstamp.png" alt="placeholder" id="fav1" class="imageReveal">
+                    <img src="images/rinconstamp.png" alt="placeholder" id="fav2" class="imageReveal">
+                    <img src="images/rinconstamp.png" alt="placeholder" id="fav3" class="imageReveal">
                 </div>
 
                 <div id="favorites1" class="stamp">
@@ -140,7 +140,7 @@
 
 
 
-            <div id="orderhome">
+            <div id="orderhome" class="autoShow">
 
                 <!-- info -->
                 <div class="orderhome-left">
@@ -169,9 +169,9 @@
 
                 <!-- deco -->
             <div class="orderhome-right">
-                <img src="images/forkart.png" alt="fork art" id="fork">
-                <img src="images/tacostamp.png" alt="taco stamp" class="stamp" id="taco">
-                <img src="images/drinkart.png" alt="drink art" class="stamp" id="drink">
+                <img src="images/forkart.png" alt="fork art" id="fork" class="floaty">
+                <img src="images/tacostamp.png" alt="taco stamp" class="stamp" id="taco" class="floaty">
+                <img src="images/drinkart.png" alt="drink art" class="stamp" id="drink" class="floaty">
 
                 <img src="images/green.png" alt="green sparkle" class="stamp" id="homeorder1">
                 <img src="images/green.png" alt="green sparkle" class="stamp" id="homeorder2">
@@ -181,7 +181,6 @@
 
         </div>
         </div>
-<script src="script.js"></script>
     </main>
 
     <footer>
@@ -191,6 +190,10 @@
         <a href="tel:9044696296">+1 (904) 469-6296</a>
     </div>
     </footer>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
     
     
 </body>

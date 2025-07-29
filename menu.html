@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body data-barba="wrapper">
     <header>
 
         <nav class="nav-wrapper">
@@ -38,8 +38,8 @@
 
     </header>
     
-    <main>
-        <div id="menugrid">
+    <main data-barba="container" data-barba-namespace="menu">
+        <div id="menugrid" class="fade-in">
 
             <!-- header -->
             <div id="header">
@@ -56,13 +56,13 @@
             </div>
 
             <!-- main header -->
-            <div id="mainheader">
+            <div id="mainheader" class="autoShow">
                 <img src="images/tacotomato.png" alt="taco and tomato" id="tacotomato">
-                <img src="images/platos.png" alt="main dishes label" id="platos">
+                <img src="images/platos.png" alt="main dishes label" id="platos" class="floaty">
             </div>
 
             <!-- main menu -->
-            <dl id="maindishes">
+            <dl id="maindishes" class="autoShow">
                 <dt class="menu-item">
                     <span class="item-name">Tacos de Asada</span>
                     <span class="price">$7</span>
@@ -91,9 +91,9 @@
             </dl>
 
             <!-- snacks  -->
-            <div id="antojitosarea">
+            <div id="antojitosarea" class="fadeUp">
                 <div id="antojitos">
-                    <img src="images/antojitos.png" alt="snacks label" id="snacklabel">
+                    <img src="images/antojitos.png" alt="snacks label" id="snacklabel" class="floaty">
                     <dl id="antojitosmenu">
                     <dt class="menu-item">
                         <span class="item-name">Elote En Vaso</span>
@@ -121,7 +121,7 @@
 
             <!-- drinks header -->
              <div id="bebidas">
-                <img src="images/bebidas.png" alt="drinks label" id="drinkslabel">
+                <img src="images/bebidas.png" alt="drinks label" id="drinkslabel" class="floaty">
                 <dl id="bebidasmenu">
                 <dt class="menu-item">
                     <span class="item-name">Soda Can</span>
@@ -190,6 +190,10 @@
         <a href="tel:9044696296">+1 (904) 469-6296</a>
     </div>
     </footer>
-       
+     
+    
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
