@@ -1401,7 +1401,6 @@
             /* about */
             #about {
                 flex-direction: column;
-                width: 100%;
                 max-width: 768px;
 
                 padding-top: 80px;
@@ -1417,24 +1416,20 @@
                     font-size: 80px;
                     width: 15ch;
                     margin-bottom: 20px;
-                    margin-top: 0px;
+                    margin-top: 40px;
                 }
                 
                 #abouttext p {
                     font-size: 20px;
                     width: 600px;
 
-                    text-align: left;
                     margin-left: 90px;
 
                 }
 
             #aboutimg{
                 width: 500px;
-                height: 700px;
-
-                object-fit: cover;
-                border-radius: 20px;
+                height: 300px;
             }
 
             #about1 {
@@ -1542,21 +1537,21 @@
             }
 
             .textlabel {
-                font-size: 30px;
+                font-size: 25px;
             }
                 #circletext {
-                    top: 830px;
-                    left: 530px;
+                    top: 800px;
+                    left: 540px;
                 }
                 
                 #startext {
-                    top: 1300px;
-                    right: 570px;
+                    top: 1310px;
+                    right: 585px;
                     rotate: -10deg;
                 }
                 #zigtext {
-                    top: 500px;
-                    left: 90px;
+                    top: 480px;
+                    left: 100px;
                 }
             
                 /* order home */
@@ -1940,68 +1935,68 @@
             #landing h1 {
                 font-size: 15px;
                 margin-top: -70px;
-
+                color: #f1d160;
             }
 
             #authentic  {
-                width: 650px;
-                top: 400px;
+                width: 350px;
+                top: 100px;
             } 
 
             #sandwichstamp {
                 top: 100px;
                 left: 20px;
 
-                width: 200px;
+                width: 100px;
             }
 
             #burritostamp {
                 top: 80px;
                 left: 500px;
 
-                width: 300px;
+                width: 100px;
             }
 
             #flattaco {
                 top: 600px;
                 left: 10px;
 
-                width: 300px;
+                width: 100px;
             }
 
             #tacostamp {
                 top: 660px;
                 left: 500px;
 
-                width: 200px;
+                width: 100px;
             }
 
             #welcome1 {
                 top: 240px;
                 left: 50px;
 
-                width: 150px;
+                width: 70px;
             }
 
             #welcome2 {
                 top: 200px;
                 right: 250px;
 
-                width: 70px;
+                width: 40px;
             }
 
             #welcome3 {
                 top: 600px;
                 left: 550px;
 
-                width: 100px;
+                width: 70px;
             }
 
             #welcome4 {
                 top: 690px;
                 right: 390px;
 
-                width: 100px;
+                width: 60px;
             }
 
 
