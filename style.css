@@ -1921,7 +1921,9 @@
 
     @media (max-width: 480px) {
             
-        
+        .logo img {
+            width: 150px;
+        }
         body {
             max-width: 480px;
         }
