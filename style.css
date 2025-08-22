@@ -1926,6 +1926,7 @@
         }
         body {
             max-width: 480px;
+            overflow-x: hidden;
         }
         /* INDEX */
 
@@ -1935,42 +1936,41 @@
 
         }
             #landing h1 {
-                font-size: 15px;
+                font-size: 45px;
                 margin-top: -70px;
-                color: #f1d160;
             }
 
             #authentic  {
                 width: 350px;
-                top: 100px;
+                top: 430px;
             } 
 
             #sandwichstamp {
-                top: 100px;
+                top: 150px;
                 left: 20px;
 
-                width: 100px;
+                width: 130px;
             }
 
             #burritostamp {
-                top: 80px;
-                left: 500px;
+                top: 180px;
+                left: 300px;
 
-                width: 100px;
+                width: 170px;
             }
 
             #flattaco {
-                top: 600px;
+                top: 530px;
                 left: 10px;
 
-                width: 100px;
+                width: 170px;
             }
 
             #tacostamp {
-                top: 660px;
-                left: 500px;
+                top: 560px;
+                left: 300px;
 
-                width: 100px;
+                width: 180px;
             }
 
             #welcome1 {
@@ -1989,14 +1989,14 @@
 
             #welcome3 {
                 top: 600px;
-                left: 550px;
+                left: 150px;
 
                 width: 70px;
             }
 
             #welcome4 {
-                top: 690px;
-                right: 390px;
+                top: 400px;
+                right: 30px;
 
                 width: 60px;
             }
@@ -2006,10 +2006,12 @@
             #about {
                 flex-direction: column;
                 width: 100%;
-                max-width: 768px;
+                max-width: 480px;
 
                 padding-top: 80px;
                 padding-bottom: 80px;
+
+                height: 900px;
                 
             }
 
@@ -2018,32 +2020,33 @@
             }
 
                 #abouttext h1 {
-                    font-size: 80px;
-                    width: 15ch;
+                    font-size: 60px;
+                    width: 10ch;
                     margin-bottom: 20px;
-                    margin-top: 0px;
+                    margin-top: 10px;
+                    margin-left: 50px;
                 }
                 
                 #abouttext p {
                     font-size: 20px;
-                    width: 600px;
+                    width: 400px;
 
                     text-align: left;
-                    margin-left: 90px;
+                    margin-left: 50px;
 
                 }
 
             #aboutimg{
-                width: 500px;
-                height: 700px;
+                width: 400px;
+                height: 300px;
 
                 object-fit: cover;
                 border-radius: 20px;
             }
 
             #about1 {
-                top: 1430px;
-                left: 600px;
+                top: 950px;
+                left: 60px;
 
                 width: 100px;
             }
@@ -2056,10 +2059,10 @@
                 align-items: center;
                 justify-content: flex-start;
                 width: 100%;
-                max-width: 768px;
+                max-width: 480px;
 
                 padding-top: 80px;
-                height: 200vh;
+                height: 260vh;
             }
 
             #favorites-header {
@@ -2076,8 +2079,8 @@
 
                 #favoritos {
                     width: 400px;
-                    top: 170px;
-                    left: 200px;
+                    top: 260px;
+                    left: 20px;
                 }
 
                 #favorites-cards {
@@ -2091,76 +2094,76 @@
             #fav1, #fav2, #fav3 {
                 width: 400px;
                 height: 400px;
-                margin: 0 20px;
+                margin: 0 60px;
             }
 
             .favorites-menu-btn {
-                padding: 18px 200px;
+                padding: 18px 70px;
                 font-size: 18px;
             }
 
             #favorites1 {
-                top: 200px;
-                left: 10px;
+                top: 20px;
+                left: 310px;
 
                 width: 150px;
             }
 
             #favorites2 {
-                top: 260px;
+                top: 350px;
                 right: 50px;
 
                 width: 100px;
             }
 
             #favorites3 {
-                top: 900px;
-                left: 100px;
+                top: 1680px;
+                left: 10px;
 
                 width: 80px;
                 rotate: -30deg;
             }
 
             #star {
-                width: 250px;
-                height: 250px;
+                width: 150px;
+                height: 150px;
 
-                top: 1200px;
-                right: 500px;
+                top: 1450px;
+                right: 40px;
                 rotate: -10deg;
             }
                 
             #zig {
-                width: 250px;
+                width: 150px;
 
-                left: 20px;
+                left: 10px;
                 top: 400px;
             }
 
             #circle {
-                width: 190px;
-                height: 190px;
+                width: 130px;
+                height: 130px;
 
-                left: 490px;
+                left: 300px;
                 top: 750px;
             }
 
             .textlabel {
-                font-size: 30px;
+                font-size: 20px;
             }
                 #circletext {
-                    top: 830px;
-                    left: 530px;
+                    top: 780px;
+                    left: 330px;
                 }
                 
                 #startext {
-                    top: 1300px;
-                    right: 570px;
+                    top: 1500px;
+                    right: 83px;
                     rotate: -10deg;
                 }
                 #zigtext {
-                    top: 500px;
-                    left: 90px;
+                    top: 435px;
+                    left: 50px;
                 }
             
                 /* order home */
@@ -2172,9 +2175,9 @@
                     "orderhome-right";
                 padding: 100px 80px 0 80px;
                 width: 100%;
-                height: 100vh;
+                height: 150vh;
                 
-                max-width: 768px;
+                max-width: 480px;
                 }
 
                 /* LEFT SECTION */
@@ -2189,19 +2192,22 @@
                 }
 
                 .orderhome-cities {
-                font-size: 30px;
+                font-size: 24px;
                 margin-bottom: 100px;
+                margin-left: -50px;
                 }
 
                 .orderhome-details {
                 display: flex;
-                gap: 60px;
+                gap: 20px;
 
                 padding-top: 300px;
+
+                margin-left: -50px;
                 }
 
                 .orderhome-info {
-                font-size: 20px;
+                font-size: 14px;
                 }
 
                 .orderhome-info strong {
@@ -2231,40 +2237,40 @@
 
                 margin-bottom: 20px;
 
-                top: 360px;
-                right: 400px;
+                top: 460px;
+                right: 250px;
                 }
 
                 /* ABSOLUTE DECOR */
 
                 #taco {
-                top: 400px;
-                right: 650px;
-                width: 200px;
+                top: 540px;
+                right: 450px;
+                width: 160px;
                 }
 
                 #drink {
-                top: 350px;
-                right: 250px;
-                width: 100px;
+                top: 430px;
+                right: 200px;
+                width: 80px;
                 rotate: 10deg;
                 }
 
                 #homeorder1 {
                 top: 80px;
-                right: 200px;
+                right: 150px;
                 width: 100px;
                 }
 
                 #homeorder2 {
-                top: 550px;
-                right: 320px;
+                top: 500px;
+                right: 520px;
                 width: 60px;
                 }
 
                 #homeorder3 {
-                bottom: 230px;
-                right: 740px;
+                bottom: 240px;
+                right: 160px;
                 width: 90px;
                 rotate: -50deg;
                 }
@@ -2282,18 +2288,18 @@
             "bebidas drinkart";
         grid-template-columns: 1fr 1fr;
 
-        max-width: 768px;
+        max-width: 480px;
         width: 100%;
         }
 
         /* header */
 
             #header {
-                margin-left: 0px;
+                margin-left: -20px;
             }
             #rinconlogo {
-                width: 140px;
-                height: 200px;
+                width: 90px;
+                height: 140px;
             }
 
             #header-text {
@@ -2301,25 +2307,25 @@
                 flex-direction: column;
                 text-align: center;
 
-                padding-left: 10px;
-                padding-right: 10px;
+                padding-left: 0px;
+                padding-right: 0px;
             }
             #header h1 {
-                font-size: 100px;
+                font-size: 80px;
                 margin: 0;
                 padding-left: 20px;
             }
             #header h2 {
-                font-size: 30px;
+                font-size: 20px;
                 margin-top: -10px;
             }
 
             #callus {
-                width: 150px;
-                height: 100px;
+                width: 110px;
+                height: 80px;
             }
             #ordercall a {
-                font-size: 20px;
+                font-size: 15px;
             }
 
 
@@ -2329,12 +2335,13 @@
             flex-direction: row;
             gap: 10px;
             
-            margin-left: 0px;
+            margin-left: -30px;
+            margin-bottom: -20px;
 
         }
             #tacotomato {
-            width: 300px;
-            height: 200px;
+            width: 120px;
+            height: 100px;
             }
 
             #platos {
@@ -2348,37 +2355,40 @@
         padding-right: 80px;
         }
         .menu-item {
-            font-size: 30px;
+            font-size: 26px;
         }
 
         #maindishes dd {
-            font-size: 20px;
-            width: 30ch;
+            font-size: 18px;
+            width: 20ch;
         }
 
         /* antojitos */
         #antojitosarea {
             flex-direction: column;
-            margin-top: 150px;
+            margin-top: 60px;
+
+            width: 100%;
+            max-width: 400px;
         }
         
         #antojitosimg {
-            width: 300px;
+            width: 200px;
             padding-left: 0px;
         }
 
         #snacklabel {
-            width: 500px;
+            width: 300px;
             margin-top: -300px;
         } 
 
         #antojitosmenu dt {
-            font-size: 30px;
+            font-size: 26px;
             margin-left: 0px;
         }
 
         #antojitosmenu dd {
-            font-size: 23px;
+            font-size: 18px;
             margin-left: 0px;
         }
 
@@ -2392,16 +2402,16 @@
         margin-left: 0px;
         }
         #drinkslabel {
-            width: 500px;
+            width: 230px;
             margin-left: 50px;
         }
 
         #bebidasmenu dt {
-            font-size: 30px;
+            font-size: 26px;
         }
         
         #drinkart {
-        width: 100px;
+        width: 150px;
         margin-left: 10px;
         }
 
@@ -2410,37 +2420,37 @@
         }
 
         #menu1 {
-            top: 450px;
+            top: 400px;
             right: 80px;
         }
         #menu2 {
             top: 650px;
-            right: 400px;
+            right: 300px;
         }
         #menu3 {
             top: 900px;
-            right: 240px;
+            right: 80px;
         }
         #menu4 {
-            top: 1200px;
-            left: 580px;
+            top: 1110px;
+            left: 300px;
         }
         #menu5 {
-            top: 1600px;
-            right: 140px;
+            top: 1500px;
+            right: 100px;
 
         }
         #menu6 {
             top: 1700px;
-            right: 640px;
+            right: 40px;
         }
         #menu7 {
-            top: 2100px;
-            left: 20px;
+            top: 1680px;
+            left: 6px;
         }
         #menu8 {
-            top: 2200px;
-            left: 600px;
+            top: 1860px;
+            left: 100px;
         }
 
 
@@ -2448,46 +2458,54 @@
 
      /* ORDER  */
         #ordergrid {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             grid-template-areas: 
-                "tacoart ordertext"
-                "ordersocials ordersocials"
+                "tacoart" 
+                "ordertext"
+                "ordersocials"
             ;
 
-            max-width: 768px;
+            max-width: 480px;
         }
 
         #tacoart {
             width: 400px;
+            margin-top: 50px;
         }
             #ordertext h1 {
                 font-size: 60px;
 
-                margin-left: 30px;
-                margin-right: 80px;
-                text-align: right;
+                margin-left: 0px;
+                margin-right: 0px;
+                text-align: center;
             }
             #ordertext h2 {
-                font-size: 17px;
+                font-size: 20px;
 
-                margin-right: 80px;
+                margin-right: 0px;
                 margin-top: -40px;
+                text-align: center;
             }
             #ordertext p {
                 font-size: 20px;
-                margin-right: 80px;
+                margin-right: 0px;
+                margin-left: 80px;
+
+                text-align: left;
             }
             
 
         #ordersocials {
             margin-bottom: 200px;
-            margin-top: 100px;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
         }
             #ordersocials img {
-                width: 60px;
+                width: 100px;
             }
             #ordersocials a {
-                font-size: 12px;
+                font-size: 22px;
             }
 
         /* stamps */
@@ -2497,19 +2515,20 @@
             }
 
             #orderfork {
-                left: 340px;
-                width: 60px;
+                left: 40px;
+                bottom: 40px;
+                width: 30px;
             }
             #ordernacho {
-                right: 600px;
-                bottom: 300px;
+                right: 60px;
+                bottom: 700px;
             }
             #order1 {
                 left: 10px;
             }
             #order2 {
-                bottom: 100px;
-                left: 480px;
+                bottom: 240px;
+                left: 280px;
 
                 rotate: -100deg;
             }
@@ -2517,7 +2536,7 @@
                     width: 130px;
                 }
             #order3 {
-                top: 270px;
+                top: 340px;
                 right: 200px;
                 rotate: 50deg;
             }
@@ -2526,6 +2545,1282 @@
                 }
    
     }
+
+
+
+    @media (max-width: 430px) {
+            
+        .logo img {
+            width: 150px;
+        }
+        body {
+            max-width: 430px;
+            overflow-x: hidden;
+        }
+        /* INDEX */
+
+        /* landing */
+        #landing {
+            max-width: 430px;
+
+        }
+            #landing h1 {
+                font-size: 40px;
+                margin-top: -70px;
+            }
+
+            #authentic  {
+                width: 350px;
+                top: 430px;
+            } 
+
+            #sandwichstamp {
+                top: 150px;
+                left: 20px;
+
+                width: 200px;
+            }
+
+            #burritostamp {
+                top: 180px;
+                left: 240px;
+
+                width: 170px;
+            }
+
+            #flattaco {
+                top: 530px;
+                left: 10px;
+
+                width: 170px;
+            }
+
+            #tacostamp {
+                top: 560px;
+                left: 200px;
+
+                width: 210px;
+            }
+
+            #welcome1 {
+                top: 300px;
+                left: 50px;
+
+                width: 100px;
+            }
+
+            #welcome2 {
+                top: 200px;
+                right: 160px;
+
+                width: 70px;
+            }
+
+            #welcome3 {
+                top: 600px;
+                left: 150px;
+
+                width: 70px;
+            }
+
+            #welcome4 {
+                top: 450px;
+                right: 30px;
+
+                width: 60px;
+            }
+
+
+            /* about */
+            #about {
+                flex-direction: column;
+                width: 100%;
+                max-width: 430px;
+
+                padding-top: 80px;
+                padding-bottom: 80px;
+
+                height: 900px;
+                
+            }
+
+            #abouttext {
+                text-align: center;
+            }
+
+                #abouttext h1 {
+                    font-size: 56px;
+                    width: 10ch;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                    margin-left: 50px;
+                }
+                
+                #abouttext p {
+                    font-size: 18px;
+                    width: 370px;
+
+                    text-align: left;
+                    margin-left: 50px;
+
+                }
+
+            #aboutimg{
+                width: 350px;
+                height: 300px;
+
+                object-fit: cover;
+                border-radius: 20px;
+            }
+
+            #about1 {
+                top: 1100px;
+                left: 60px;
+
+                width: 100px;
+            }
+            
+
+            /* favorites */
+            #favorites {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                max-width: 430px;
+
+                padding-top: 80px;
+                height: 180vh;
+            }
+
+            #favorites-header {
+                margin-bottom: 20px;
+                margin-left: 30px;
+            }
+
+                #favorites-header h1 {
+                    font-size: 60px;
+                    letter-spacing: 2px;
+                    
+                    padding-bottom: 50px;
+                }
+
+                #favoritos {
+                    width: 360px;
+                    top: 240px;
+                    left: 20px;
+                }
+
+                #favorites-cards {
+                    flex-direction: column;
+                    gap: 20px;
+
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+
+            #fav1, #fav2, #fav3 {
+                width: 340px;
+                height: 340px;
+                margin: 0 60px;
+            }
+
+            .favorites-menu-btn {
+                padding: 18px 70px;
+                font-size: 18px;
+            }
+
+            #favorites1 {
+                top: 20px;
+                left: 310px;
+
+                width: 150px;
+            }
+
+            #favorites2 {
+                top: 350px;
+                right: 50px;
+
+                width: 100px;
+            }
+
+            #favorites3 {
+                top: 1680px;
+                left: 10px;
+
+                width: 80px;
+                rotate: -30deg;
+            }
+
+            #star {
+                width: 150px;
+                height: 150px;
+
+                top: 1260px;
+                right: 40px;
+                rotate: -10deg;
+            }
+                
+            #zig {
+                width: 150px;
+
+                left: 10px;
+                top: 400px;
+            }
+
+            #circle {
+                width: 130px;
+                height: 130px;
+
+                left: 300px;
+                top: 750px;
+            }
+
+            .textlabel {
+                font-size: 20px;
+            }
+                #circletext {
+                    top: 780px;
+                    left: 330px;
+                }
+                
+                #startext {
+                    top: 1320px;
+                    right: 83px;
+                    rotate: -10deg;
+                }
+                #zigtext {
+                    top: 435px;
+                    left: 50px;
+                }
+            
+                /* order home */
+                #orderhome {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                    "orderhome-left"
+                    "orderhome-right";
+                padding: 100px 80px 0 80px;
+                width: 100%;
+                height: 120vh;
+                
+                max-width: 430px;
+                }
+
+                /* LEFT SECTION */
+                .orderhome-left {
+                grid-area: orderhome-left;
+                
+                }
+
+                #orderhome h1 {
+                font-size: 90px;
+                margin: 0 0 20px 0;
+                }
+
+                .orderhome-cities {
+                font-size: 24px;
+                margin-bottom: 100px;
+                margin-left: -50px;
+                }
+
+                .orderhome-details {
+                display: flex;
+                gap: 20px;
+
+                padding-top: 300px;
+
+                margin-left: -50px;
+                }
+
+                .orderhome-info {
+                font-size: 14px;
+                }
+
+                .orderhome-info strong {
+                font-size: 28px;
+                margin-bottom: 5px;
+                }
+
+                .orderhome-follow {
+                font-size: 28px;
+                }
+
+                .orderhome-social {
+                width: 60px;
+                height: 60px;
+                }
+
+                /* RIGHT SECTION */
+                .orderhome-right {
+                grid-area: orderhome-right;
+             
+                }
+
+                #fork {
+                width: 100%;
+                max-width: 300px;
+
+
+                margin-bottom: 20px;
+
+                top: 460px;
+                right: 250px;
+                }
+
+                /* ABSOLUTE DECOR */
+
+                #taco {
+                top: 540px;
+                right: 450px;
+                width: 160px;
+                }
+
+                #drink {
+                top: 430px;
+                right: 200px;
+                width: 80px;
+                rotate: 10deg;
+                }
+
+                #homeorder1 {
+                top: 80px;
+                right: 150px;
+                width: 100px;
+                }
+
+                #homeorder2 {
+                top: 500px;
+                right: 520px;
+                width: 60px;
+                }
+
+                #homeorder3 {
+                bottom: 240px;
+                right: 160px;
+                width: 90px;
+                rotate: -50deg;
+                }
+
+        
+
+        /* MENU */
+        #menugrid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "mainheader"
+            "maindishes"
+            "antojitos"
+            "bebidas" 
+            "drinkart";
+        grid-template-columns: 1fr ;
+
+        max-width: 430px;
+        width: 100%;
+        }
+
+        /* header */
+
+            #header {
+                margin-left: -20px;
+            }
+            #rinconlogo {
+                width: 70px;
+                height: 120px;
+            }
+
+            #header-text {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-left: -10px;
+
+            }
+            #header h1 {
+                font-size: 80px;
+                margin: 0;
+                padding-left: 20px;
+            }
+            #header h2 {
+                font-size: 15px;
+                margin-top: -10px;
+            }
+
+            #callus {
+                width: 90px;
+                height: 70px;
+            }
+            #ordercall a {
+                font-size: 15px;
+            }
+
+
+        /* main */
+        #mainheader {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            
+            margin-left: -30px;
+            margin-bottom: -20px;
+
+        }
+            #tacotomato {
+            width: 120px;
+            height: 100px;
+            }
+
+            #platos {
+            width: 300px;
+            height: 100px;
+            }
+        
+
+        #maindishes {
+        padding-left: 10px;
+        padding-right: 80px;
+        }
+        .menu-item {
+            font-size: 26px;
+        }
+
+        #maindishes dd {
+            font-size: 18px;
+            width: 20ch;
+        }
+
+        /* antojitos */
+        #antojitosarea {
+            flex-direction: column;
+            margin-top: 60px;
+
+            width: 100%;
+            max-width: 430px;
+        }
+        
+        #antojitosimg {
+            width: 200px;
+            padding-left: 0px;
+        }
+
+        #snacklabel {
+            width: 300px;
+            margin-top: -300px;
+        } 
+
+        #antojitosmenu dt {
+            font-size: 26px;
+            margin-left: -50px;
+        }
+
+        #antojitosmenu dd {
+            font-size: 18px;
+            margin-left: -50px;
+            width: 20ch;
+        }
+
+
+
+        /* drinks */
+        #bebidas {
+        grid-area: bebidas;
+        text-align: left;
+
+        margin-left: 0px;
+        }
+        #drinkslabel {
+            width: 230px;
+            margin-left: 50px;
+        }
+
+        #bebidasmenu dt {
+            font-size: 24px;
+            width: 20ch;
+        }
+        
+        #drinkart {
+        width: 150px;
+        margin-left: 10px;
+        }
+
+        #menugrid .stamp img {
+            width: 60px;
+        }
+
+        #menu1 {
+            top: 400px;
+            right: 80px;
+        }
+        #menu2 {
+            top: 650px;
+            right: 270px;
+        }
+        #menu3 {
+            top: 900px;
+            right: 80px;
+        }
+        #menu4 {
+            top: 1110px;
+            left: 300px;
+        }
+        #menu5 {
+            top: 1500px;
+            right: 300px;
+
+        }
+        #menu6 {
+            top: 1700px;
+            right: 40px;
+        }
+        #menu7 {
+            top: 1680px;
+            left: 6px;
+        }
+        #menu8 {
+            top: 1860px;
+            left: 100px;
+        }
+
+
+
+
+     /* ORDER  */
+        #ordergrid {
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+                "tacoart" 
+                "ordertext"
+                "ordersocials"
+            ;
+
+            max-width: 430px;
+        }
+
+        #tacoart {
+            width: 300px;
+            margin-top: 50px;
+        }
+            #ordertext h1 {
+                font-size: 60px;
+
+                margin-left: 0px;
+                margin-right: 0px;
+                text-align: center;
+            }
+            #ordertext h2 {
+                font-size: 20px;
+
+                margin-right: 0px;
+                margin-top: -40px;
+                text-align: center;
+            }
+            #ordertext p {
+                font-size: 20px;
+                margin-right: 0px;
+                margin-left: 80px;
+
+                text-align: left;
+            }
+            
+
+        #ordersocials {
+            margin-bottom: 200px;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+            #ordersocials img {
+                width: 100px;
+            }
+            #ordersocials a {
+                font-size: 22px;
+            }
+
+        /* stamps */
+            #ordergrid .stamp {
+                width: 150px;
+                position: absolute;
+            }
+
+            #orderfork {
+                left: 40px;
+                bottom: 40px;
+                width: 30px;
+            }
+            #ordernacho {
+                right: 40px;
+                bottom: 640px;
+            }
+            #order1 {
+                left: 10px;
+                top: 200px;
+                width: 50px;
+            }
+            #order2 {
+                bottom: 240px;
+                left: 280px;
+
+                rotate: -100deg;
+            }
+                #order2 img {
+                    width: 130px;
+                }
+            #order3 {
+                top: 650px;
+                right: 200px;
+                rotate: 50deg;
+            }
+                #order3 img {
+                    width: 100px;
+                }
+   
+    }
+
+
+  @media (max-width: 414px) {
+            
+        .logo img {
+            width: 150px;
+        }
+        body {
+            max-width: 414px;
+            overflow-x: hidden;
+        }
+        /* INDEX */
+
+        /* landing */
+        #landing {
+            max-width: 414px;
+
+        }
+            #landing h1 {
+                font-size: 40px;
+                margin-top: -70px;
+            }
+
+            #authentic  {
+                width: 350px;
+                top: 430px;
+            } 
+
+            #sandwichstamp {
+                top: 150px;
+                left: 20px;
+
+                width: 200px;
+            }
+
+            #burritostamp {
+                top: 180px;
+                left: 240px;
+
+                width: 170px;
+            }
+
+            #flattaco {
+                top: 530px;
+                left: 10px;
+
+                width: 170px;
+            }
+
+            #tacostamp {
+                top: 560px;
+                left: 200px;
+
+                width: 210px;
+            }
+
+            #welcome1 {
+                top: 300px;
+                left: 50px;
+
+                width: 100px;
+            }
+
+            #welcome2 {
+                top: 200px;
+                right: 160px;
+
+                width: 70px;
+            }
+
+            #welcome3 {
+                top: 600px;
+                left: 150px;
+
+                width: 70px;
+            }
+
+            #welcome4 {
+                top: 450px;
+                right: 30px;
+
+                width: 60px;
+            }
+
+
+            /* about */
+            #about {
+                flex-direction: column;
+                width: 100%;
+                max-width: 430px;
+
+                padding-top: 80px;
+                padding-bottom: 80px;
+
+                height: 900px;
+                
+            }
+
+            #abouttext {
+                text-align: center;
+            }
+
+                #abouttext h1 {
+                    font-size: 56px;
+                    width: 10ch;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                    margin-left: 50px;
+                }
+                
+                #abouttext p {
+                    font-size: 18px;
+                    width: 370px;
+
+                    text-align: left;
+                    margin-left: 50px;
+
+                }
+
+            #aboutimg{
+                width: 350px;
+                height: 300px;
+
+                object-fit: cover;
+                border-radius: 20px;
+            }
+
+            #about1 {
+                top: 1100px;
+                left: 60px;
+
+                width: 100px;
+            }
+            
+
+            /* favorites */
+            #favorites {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                max-width: 430px;
+
+                padding-top: 80px;
+                height: 180vh;
+            }
+
+            #favorites-header {
+                margin-bottom: 20px;
+                margin-left: 30px;
+            }
+
+                #favorites-header h1 {
+                    font-size: 60px;
+                    letter-spacing: 2px;
+                    
+                    padding-bottom: 50px;
+                }
+
+                #favoritos {
+                    width: 360px;
+                    top: 240px;
+                    left: 20px;
+                }
+
+                #favorites-cards {
+                    flex-direction: column;
+                    gap: 20px;
+
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+
+            #fav1, #fav2, #fav3 {
+                width: 340px;
+                height: 340px;
+                margin: 0 60px;
+            }
+
+            .favorites-menu-btn {
+                padding: 18px 70px;
+                font-size: 18px;
+            }
+
+            #favorites1 {
+                top: 20px;
+                left: 310px;
+
+                width: 150px;
+            }
+
+            #favorites2 {
+                top: 350px;
+                right: 50px;
+
+                width: 100px;
+            }
+
+            #favorites3 {
+                top: 1680px;
+                left: 10px;
+
+                width: 80px;
+                rotate: -30deg;
+            }
+
+            #star {
+                width: 150px;
+                height: 150px;
+
+                top: 1260px;
+                right: 40px;
+                rotate: -10deg;
+            }
+                
+            #zig {
+                width: 150px;
+
+                left: 10px;
+                top: 400px;
+            }
+
+            #circle {
+                width: 130px;
+                height: 130px;
+
+                left: 300px;
+                top: 750px;
+            }
+
+            .textlabel {
+                font-size: 20px;
+            }
+                #circletext {
+                    top: 780px;
+                    left: 330px;
+                }
+                
+                #startext {
+                    top: 1320px;
+                    right: 83px;
+                    rotate: -10deg;
+                }
+                #zigtext {
+                    top: 435px;
+                    left: 50px;
+                }
+            
+                /* order home */
+                #orderhome {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                    "orderhome-left"
+                    "orderhome-right";
+                padding: 100px 80px 0 80px;
+                width: 100%;
+                height: 120vh;
+                
+                max-width: 430px;
+                }
+
+                /* LEFT SECTION */
+                .orderhome-left {
+                grid-area: orderhome-left;
+                
+                }
+
+                #orderhome h1 {
+                font-size: 90px;
+                margin: 0 0 20px 0;
+                }
+
+                .orderhome-cities {
+                font-size: 24px;
+                margin-bottom: 100px;
+                margin-left: -50px;
+                }
+
+                .orderhome-details {
+                display: flex;
+                gap: 20px;
+
+                padding-top: 300px;
+
+                margin-left: -50px;
+                }
+
+                .orderhome-info {
+                font-size: 14px;
+                }
+
+                .orderhome-info strong {
+                font-size: 28px;
+                margin-bottom: 5px;
+                }
+
+                .orderhome-follow {
+                font-size: 28px;
+                }
+
+                .orderhome-social {
+                width: 60px;
+                height: 60px;
+                }
+
+                /* RIGHT SECTION */
+                .orderhome-right {
+                grid-area: orderhome-right;
+             
+                }
+
+                #fork {
+                width: 100%;
+                max-width: 300px;
+
+
+                margin-bottom: 20px;
+
+                top: 460px;
+                right: 250px;
+                }
+
+                /* ABSOLUTE DECOR */
+
+                #taco {
+                top: 540px;
+                right: 450px;
+                width: 160px;
+                }
+
+                #drink {
+                top: 430px;
+                right: 200px;
+                width: 80px;
+                rotate: 10deg;
+                }
+
+                #homeorder1 {
+                top: 80px;
+                right: 150px;
+                width: 100px;
+                }
+
+                #homeorder2 {
+                top: 500px;
+                right: 520px;
+                width: 60px;
+                }
+
+                #homeorder3 {
+                bottom: 240px;
+                right: 160px;
+                width: 90px;
+                rotate: -50deg;
+                }
+
+        
+
+        /* MENU */
+        #menugrid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "mainheader"
+            "maindishes"
+            "antojitos"
+            "bebidas" 
+            "drinkart";
+        grid-template-columns: 1fr ;
+
+        max-width: 430px;
+        width: 100%;
+        }
+
+        /* header */
+
+            #header {
+                margin-left: -20px;
+            }
+            #rinconlogo {
+                width: 70px;
+                height: 120px;
+            }
+
+            #header-text {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-left: -10px;
+
+            }
+            #header h1 {
+                font-size: 80px;
+                margin: 0;
+                padding-left: 20px;
+            }
+            #header h2 {
+                font-size: 15px;
+                margin-top: -10px;
+            }
+
+            #callus {
+                width: 90px;
+                height: 70px;
+            }
+            #ordercall a {
+                font-size: 15px;
+            }
+
+
+        /* main */
+        #mainheader {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            
+            margin-left: -30px;
+            margin-bottom: -20px;
+
+        }
+            #tacotomato {
+            width: 120px;
+            height: 100px;
+            }
+
+            #platos {
+            width: 300px;
+            height: 100px;
+            }
+        
+
+        #maindishes {
+        padding-left: 10px;
+        padding-right: 80px;
+        }
+        .menu-item {
+            font-size: 26px;
+        }
+
+        #maindishes dd {
+            font-size: 18px;
+            width: 20ch;
+        }
+
+        /* antojitos */
+        #antojitosarea {
+            flex-direction: column;
+            margin-top: 60px;
+
+            width: 100%;
+            max-width: 430px;
+        }
+        
+        #antojitosimg {
+            width: 200px;
+            padding-left: 0px;
+        }
+
+        #snacklabel {
+            width: 300px;
+            margin-top: -300px;
+        } 
+
+        #antojitosmenu dt {
+            font-size: 26px;
+            margin-left: -50px;
+        }
+
+        #antojitosmenu dd {
+            font-size: 18px;
+            margin-left: -50px;
+            width: 20ch;
+        }
+
+
+
+        /* drinks */
+        #bebidas {
+        grid-area: bebidas;
+        text-align: left;
+
+        margin-left: 0px;
+        }
+        #drinkslabel {
+            width: 230px;
+            margin-left: 50px;
+        }
+
+        #bebidasmenu dt {
+            font-size: 24px;
+            width: 20ch;
+        }
+        
+        #drinkart {
+        width: 150px;
+        margin-left: 10px;
+        }
+
+        #menugrid .stamp img {
+            width: 60px;
+        }
+
+        #menu1 {
+            top: 400px;
+            right: 80px;
+        }
+        #menu2 {
+            top: 650px;
+            right: 270px;
+        }
+        #menu3 {
+            top: 900px;
+            right: 80px;
+        }
+        #menu4 {
+            top: 1110px;
+            left: 300px;
+        }
+        #menu5 {
+            top: 1500px;
+            right: 300px;
+
+        }
+        #menu6 {
+            top: 1700px;
+            right: 40px;
+        }
+        #menu7 {
+            top: 1680px;
+            left: 6px;
+        }
+        #menu8 {
+            top: 1860px;
+            left: 100px;
+        }
+
+
+
+
+     /* ORDER  */
+        #ordergrid {
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+                "tacoart" 
+                "ordertext"
+                "ordersocials"
+            ;
+
+            max-width: 430px;
+        }
+
+        #tacoart {
+            width: 300px;
+            margin-top: 50px;
+        }
+            #ordertext h1 {
+                font-size: 60px;
+
+                margin-left: 0px;
+                margin-right: 0px;
+                text-align: center;
+            }
+            #ordertext h2 {
+                font-size: 20px;
+
+                margin-right: 0px;
+                margin-top: -40px;
+                text-align: center;
+            }
+            #ordertext p {
+                font-size: 20px;
+                margin-right: 0px;
+                margin-left: 80px;
+
+                text-align: left;
+            }
+            
+
+        #ordersocials {
+            margin-bottom: 200px;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+            #ordersocials img {
+                width: 100px;
+            }
+            #ordersocials a {
+                font-size: 22px;
+            }
+
+        /* stamps */
+            #ordergrid .stamp {
+                width: 150px;
+                position: absolute;
+            }
+
+            #orderfork {
+                left: 40px;
+                bottom: 40px;
+                width: 30px;
+            }
+            #ordernacho {
+                right: 40px;
+                bottom: 640px;
+            }
+            #order1 {
+                left: 10px;
+                top: 200px;
+                width: 50px;
+            }
+            #order2 {
+                bottom: 240px;
+                left: 280px;
+
+                rotate: -100deg;
+            }
+                #order2 img {
+                    width: 130px;
+                }
+            #order3 {
+                top: 650px;
+                right: 200px;
+                rotate: 50deg;
+            }
+                #order3 img {
+                    width: 100px;
+                }
+   
+    }
+
+
+    414 375 430 390
+
+    1280 1440 1500
 
         
         
